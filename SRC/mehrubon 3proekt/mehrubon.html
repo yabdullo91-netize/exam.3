@@ -8,12 +8,12 @@
 </head>
 <body class="overflow-x-hidden">
     <hr class="border-6 border-[#00C65E]">
-    <div class="flex items-center justify-between px-[150px]">
-        <div class="flex gap-[40px] ">
+    <div class="flex px-[30px] lg:flex-row items-center justify-between px-4 lg:px-[150px] py-4 lg:py-0 gap-4 lg:gap-0">
+        <div class="flex flex-col lg:flex-row gap-4 lg:gap-[40px] items-center text-center lg:text-left">
             <img src="/logo1.svg" alt="">
-            <div class="flex items-center gap-[30px] ">
+            <div class="flex flex-col lg:flex-row items-center gap-4 lg:gap-[30px] hidden lg:flex ">
                 <h4 class="font-bold text-[#363A45] text-[14px] ">Доска объявлений</h4>
-                <div class="relative z-10 px-[10px] py-[23px] bg-[#00c65c7c]">
+                <div class="relative z-10 px-[10px] py-[10px] lg:py-[23px] bg-[#00c65c7c]">
                     <p class="font-[400] text-[#363A45] text-[14px]">Сервисный центр</p>
                 </div>
                 <p class="font-[400] text-[#363A45] text-[14px]">Интернет-магазин Dily.ru</p>
@@ -22,7 +22,7 @@
         </div>
 
         <div class="flex items-center gap-[30px]">
-            <div class="flex gap-[10px] items-center ">
+            <div class=" gap-[10px] items-center hidden lg:flex">
                 <img src="/icon1.svg" alt="">
                 <select name="" id="">
                     <option value=""><p class="text-[14px] text-[#363A45]">Москва</p></option>
@@ -35,8 +35,8 @@
         </div>
     </div>
 
-    <div class="bg-[#F7F7F7] border-2 border-solid border-[#DADCDC] py-[10px] flex items-center justify-between px-[160px] mb-[50px]">
-        <div class="flex gap-[40px]">
+    <div class="bg-[#F7F7F7] border-2 border-solid border-[#DADCDC] py-[10px] flex flex-col lg:flex-row items-center justify-between px-4 lg:px-[160px] mb-[30px] lg:mb-[50px] gap-4 lg:gap-0">
+        <div class="flex lg:flex-row gap-4 lg:gap-[40px] items-center">
             <button class="flex gap-[10px] items-center">
             <img src="/icon3.svg" alt="">
             <p class="font-[14px] text-[#00C65E] font-[400]">Что мы чиним</p>
@@ -49,11 +49,11 @@
         </button>
         </div>
 
-        <div class="flex items-center gap-[160px]">
+        <div class="flex flex-col lg:flex-row items-center gap-4 lg:gap-[160px]">
             <div class="flex">
                 <div class="flex gap-[15px] pl-[15px] bg-white w-fit py-[9px] rounded-[30px_0px_0px_30px]">
                     <img src="/icon6.svg" alt="">
-                    <input type="text" placeholder="Я хочу купить" class="w-[211px] font-[400] text-[14px] text-[#363A45] outline-none">
+                    <input type="text" placeholder="Я хочу купить" class="w-[180px] lg:w-[211px] font-[400] text-[14px] text-[#363A45] outline-none">
                 </div>
                 <button class="px-[24px] py-[9px] rounded-[0px_30px_30px_0px] bg-[#DADCDC]">
                     <h4>Найти</h4>
@@ -64,16 +64,16 @@
         </div>
     </div>
 
-    <div class="shadow-[1px_2px_16px_3px_#363A4514] bg-linear-to-r from-[#ffffffc9]  to-[#ffb662bc] to-160% flex overflow-hidden mb-[80px]">
-        <div class="pt-[40px] pb-[100px] pl-[230px]">
-        <h2 class="font-[700] text-[36px] text-black w-[780px] pb-[47px]">Cкупка у метро Аэропорт</h2>
-        <p class="font-[500] text-[24px] text-[#363A45] w-[473px] leading-[150%]">Живете рядом с метро Аэропорт? Закажите курьера и он заберет у вас то, что надо отремонтировать</p>
-        <button class="py-[12px] px-[27px] rounded-[10px] bg-[#00C65E] mt-[102px]">
+    <div class="shadow-[1px_2px_16px_3px_#363A4514] bg-linear-to-r from-[#ffffffc9]  to-[#ffb662bc] to-160% flex flex-col lg:flex-row overflow-hidden mb-[50px] lg:mb-[80px]">
+        <div class="pt-[40px] pb-[50px] lg:pb-[100px] px-4 lg:pl-[230px] text-center lg:text-left">
+        <h2 class="font-[700] text-[28px] lg:text-[36px] text-black w-full lg:w-[780px] pb-[20px] lg:pb-[47px]">Cкупка у метро Аэропорт</h2>
+        <p class="font-[500] text-[18px] lg:text-[24px] text-[#363A45] w-full lg:w-[473px] leading-[150%]">Живете рядом с метро Аэропорт? Закажите курьера и он заберет у вас то, что надо отремонтировать</p>
+        <button class="py-[12px] px-[27px] rounded-[10px] bg-[#00C65E] mt-[40px] lg:mt-[102px]">
             <p class="text-white text-[14px]">Оставить заявку</p>
         </button>
     </div>
 
-    <div class="flex items-center">
+    <div class="hidden lg:flex items-center">
         <div class="flex flex-col items-center">
             <img src="/triangle1.svg" alt="" class="relative bottom-[85px] left-[30px]">
             <img src="/triangle2.svg" alt="" class="relative right-[50px] top-[95px]">
@@ -82,73 +82,73 @@
     </div>
     </div>
 
-    <div class="flex gap-[70px] w-fit m-auto mb-[80px]">
-        <div class="w-[200px] flex flex-col items-center gap-[20px]">
+    <div class="flex flex-col lg:flex-row gap-[30px] lg:gap-[70px] w-full lg:w-fit m-auto mb-[50px] lg:mb-[80px] px-4 lg:px-0 items-center">
+        <div class="w-full lg:w-[200px] flex flex-col items-center gap-[20px]">
             <img src="/round1.svg" alt="">
             <h4 class="font-[700] text-[18px] text-[#363A45]">Выкупаем за 5 минут</h4>
         </div>
 
-        <div class="w-[200px] flex flex-col items-center gap-[20px]">
+        <div class="w-full lg:w-[200px] flex flex-col items-center gap-[20px]">
             <img src="/round2.svg" alt="">
             <h4 class="font-[700] text-[18px] text-[#363A45]">Отличная цена</h4>
         </div>
 
-        <div class="w-[200px] flex flex-col items-center gap-[20px]">
+        <div class="w-full lg:w-[200px] flex flex-col items-center gap-[20px]">
             <img src="/round3.svg" alt="">
             <h4 class="font-[700] text-[18px] text-[#363A45]">Деньги сразу на руки</h4>
         </div>
 
-        <div class="w-[200px] flex flex-col items-center gap-[20px]">
+        <div class="w-full lg:w-[200px] flex flex-col items-center gap-[20px]">
             <img src="/round4.svg" alt="">
             <h4 class="font-[700] text-[18px] text-[#363A45]">Гарантия сделки</h4>
         </div>
     </div>
 
-    <div class="w-fit flex flex-col items-center m-auto gap-[50px] mb-[80px]">
-        <h3 class="font-[700] text-[32px] text-[#00C65E]">Оставьте заявку для оценки вашего устройства</h3>
-        <button class="py-[12px] px-[91px] bg-[#00C65E] rounded-[10px] w-fit">
+    <div class="w-full lg:w-fit flex flex-col items-center m-auto gap-[30px] lg:gap-[50px] mb-[50px] lg:mb-[80px] px-4 lg:px-0 text-center lg:text-left">
+        <h3 class="font-[700] text-[24px] lg:text-[32px] text-[#00C65E]">Оставьте заявку для оценки вашего устройства</h3>
+        <button class="py-[12px] px-[91px] bg-[#00C65E] rounded-[10px] w-full lg:w-fit">
             <p class="font-[400] text-[14px] text-white ">Узнать цену</p>
         </button>
     </div>
 
-    <div class="flex flex-col w-fit items-center m-auto gap-[30px] mb-[80px]">
-        <h3 class="font-[700] text-[32px] text-[#363A45]">Работаем по всей территории Москвы</h3>
+    <div class="flex flex-col w-full lg:w-fit items-center m-auto gap-[30px] mb-[50px] lg:mb-[80px] px-4 lg:px-0">
+        <h3 class="font-[700] text-[24px] lg:text-[32px] text-[#363A45] text-center">Работаем по всей территории Москвы</h3>
 
-        <div class="flex items-center gap-[70px]">
-            <div class="flex flex-col gap-[10px]">
+        <div class="flex flex-col lg:flex-row items-center gap-[20px] lg:gap-[70px] w-full lg:w-auto">
+            <div class="flex flex-col gap-[10px] w-full lg:w-auto">
                 <label for="l1" class="font-[700] text-[16px] text-[#363A45]">Город</label>
-                <select name="" id="l1" class="px-[10px] pl-[10px] pr-[85px] bg-[#EFEFEF] rounded-[10px] border-none">
+                <select name="" id="l1" class="px-[10px] pl-[10px] pr-[85px] bg-[#EFEFEF] rounded-[10px] border-none py-3 lg:py-0">
                     <option value="">Москва</option>
                 </select>
             </div>
 
-            <div class="flex flex-col gap-[10px] ">
+            <div class="flex flex-col gap-[10px] w-full lg:w-auto">
                 <label for="l2" class="font-[700] text-[16px] text-[#363A45]">Метро</label>
-                <select name="" id="l2" class="px-[10px] pl-[10px] pr-[85px] bg-[#EFEFEF] rounded-[10px] border-none">
+                <select name="" id="l2" class="px-[10px] pl-[10px] pr-[85px] bg-[#EFEFEF] rounded-[10px] border-none py-3 lg:py-0">
                     <option value="">Выбрать...</option>
                 </select>
             </div>
         </div>
     </div>
     
-    <div class="py-[39px] bg-[#F7F7F7] shadow-[1px_2px_16px_3px_#363A4514] flex flex-col items-center">
+    <div class="py-[39px] bg-[#F7F7F7] shadow-[1px_2px_16px_3px_#363A4514] flex flex-col items-center px-4 lg:px-0">
         <div class="flex flex-col gap-[10px] pb-[15px]">
         <h2 class="font-bold text-[32px] text-[#363A45] text-center">Остались вопросы?</h2>
         <p class="font-[500] text-[16px] text-[#363A45] text-center">Оставьте заявку и нам менеджер свяжется с вами</p>
         </div>
 
-        <div class="flex gap-[50px] items-baseline-last mb-[40px]">
-        <div class="flex flex-col gap-[5px]">
+        <div class="flex flex-col lg:flex-row gap-[30px] lg:gap-[50px] items-center lg:items-baseline-last mb-[40px] w-full lg:w-auto">
+        <div class="flex flex-col gap-[5px] w-full lg:w-auto">
             <label for="f1" class="font-[700] text-[14px] text-[#262626]">Телефон</label>
-            <input type="text" id="f1" placeholder="+ 7 (123)-456-78-90" class="font-[400] text-[14px] text-[#A7AAB1] w-[300px] px-[15px] py-[12px] rounded-[10px] bg-white border border-[#DADCDC]">
+            <input type="text" id="f1" placeholder="+ 7 (123)-456-78-90" class="font-[400] text-[14px] text-[#A7AAB1] w-full lg:w-[300px] px-[15px] py-[12px] rounded-[10px] bg-white border border-[#DADCDC]">
         </div>
 
-        <button class="py-[12px] px-[56px] bg-[#00C65E] rounded-[10px] h-fit">
-            <p class="font-[400] text-[14px] text-white">Заказать звонок</p>
+        <button class="py-[12px] px-[56px] bg-[#00C65E] rounded-[10px] h-fit w-full lg:w-auto">
+            <p class="font-[400] text-[14px] text-white text-center">Заказать звонок</p>
         </button>
         </div>
 
-        <div class="flex gap-[30px]">
+        <div class="flex flex-col lg:flex-row gap-[10px] lg:gap-[30px] items-center">
             <p class="font-[500] text-[16px] text-[#363A45]">Или позвоните сами</p>
             <button class="flex gap-[5px] items-center">
                 <img src="/phone.svg" alt="">
@@ -157,9 +157,9 @@
         </div>
     </div>
 
-    <div class="my-[80px] w-fit mx-auto">
+    <div class="my-[40px] lg:my-[80px] w-full lg:w-fit mx-auto px-4 lg:px-0">
         <p class="pb-[8px] font-[400] text-[14px] text-[#818187]">Выгодная скупка в Москве</p>
-        <p class="font-[400] text-[12px] text-[#818187] leading-[130%]">Специализированный ломбард «Скупка ТВ» – это профессиональная компания которая была основана в 2003 году. Занимающаяся выкупом товаров бывших в употреблении, у населения и организаций, как в <br>  частном порядке, так и крупными оптовыми партиями,<br> <br> 
+        <p class="font-[400] text-[12px] text-[#818187] leading-[130%]">Специализированный ломбард «Скупка ТВ» – это профессиональная компания которая была основана в 2003 году. Занимающаяся выкупом товаров бывших в употреблении, у населения и организаций, как в <br class="hidden lg:block">  частном порядке, так и крупными оптовыми партиями,<br> <br> 
         За все эти годы работы на рынке скупки, нам удалось заслужить безупречную репутацию, а также доверие огромного числа клиентов, предпринимателей и крупных холдинговых компаний. <br> 
         КАКИЕ ТОВАРЫ СКУПАЕМ <br>
         На сегодняшний день, перечень скупаемого нами ликвидного товара действительно разнообразен и включает в себя следующие позиции: <br> 
@@ -171,8 +171,8 @@
         </button>
     </div>
 
-    <div class="flex items-center h-[60px] items-center bg-[#EFEFEF] border-b-2 border-[#DADCDC] justify-between px-[235px]">
-        <div class="flex gap-[50px]">
+    <div class="flex flex-col lg:flex-row items-center h-auto lg:h-[60px] bg-[#EFEFEF] border-b-2 border-[#DADCDC] justify-between px-4 lg:px-[235px] py-4 lg:py-0 gap-4 lg:gap-0">
+        <div class="flex flex-col lg:flex-row gap-[20px] lg:gap-[50px] items-center">
             <img src="/logo2.svg" alt="">
             <div class="flex gap-[10px] items-center ">
                 <img src="/icon1.svg" alt="">
@@ -193,7 +193,7 @@
     </div>
 
     <div class="bg-[#EFEFEF]">
-        <div class="pt-[30px] pb-[110px] flex gap-[85px] pl-[233px] ">
+        <div class="pt-[30px] pb-[50px] lg:pb-[110px] flex flex-col lg:flex-row gap-[30px] lg:gap-[85px] pl-4 lg:pl-[233px] ">
             <div class="flex flex-col gap-[8px] w-[150px] ">
             <h4 class="font-bold text-[#363A45] text-[14px]">Доска объявлений</h4>
             <p class="font-[400] text-[12px] text-[#363A45]">Объявления</p>
@@ -228,8 +228,8 @@
         </div>
     </div>
 
-    <div class="flex items-center h-[40px] justify-between px-[225px]">
-        <div class="flex gap-[48px] ">
+    <div class="flex flex-col lg:flex-row items-center h-auto lg:h-[40px] justify-between px-4 lg:px-[225px] py-4 lg:py-0 gap-3 lg:gap-0">
+        <div class="flex flex-col lg:flex-row gap-[10px] lg:gap-[48px] items-center">
             <p class="font-[400] text-[12px] text-[#363A45]">Политика конфиденциальности</p>
             <p class="font-[400] text-[12px] text-[#363A45]">Пользовательское соглашение</p>
             <p class="font-[400] text-[12px] text-[#363A45]">Использование cookies</p>
